@@ -1,0 +1,94 @@
+.profile__page {
+  font-family: Manrope;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+.profile__page nav {
+  background-color: #fff;
+  border: 1px solid #DCE2EA;
+  padding-left: 64px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.profile__page .content {
+  padding: 8px 32px;
+  overflow-x: hidden;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-column-gap: 16px;
+  height: calc(100vh - 118px);
+}
+.profile__page .content .details {
+  border: 1px solid #dde1e3;
+  padding: 24px 48px;
+  border-radius: 8px;
+}
+.profile__page .content .details .logo {
+  margin-bottom: 32px;
+  display: flex;
+  align-items: center;
+}
+.profile__page .content .details .logo img {
+  margin-right: 16px;
+}
+.profile__page .content .details .logo h4 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 37px;
+  letter-spacing: -0.2px;
+}
+.profile__page .content .details .ceo p, .profile__page .content .details .cto p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0px;
+}
+.profile__page .content .details .ceo h4, .profile__page .content .details .cto h4 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: -0.3px;
+  margin-bottom: 24px;
+}
+.profile__page .content .more {
+  border-radius: 12px;
+  background-color: #F7F7F7;
+  padding: 64px 16px;
+}
+.profile__page .content .more .soon {
+  margin-bottom: 32px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: -0.2px;
+  background: #FEEBEE;
+  padding: 6px 16px;
+  border-radius: 30px;
+  color: #E60A2B;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.profile__page .content .more .soon img {
+  margin-right: 8px;
+}
+.profile__page .content .more .notif {
+  margin-top: 32px;
+}
+.profile__page .content .more .notif h4 {
+  text-align: center;
+  margin-bottom: 8px;
+  font-family: Manrope;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 37px;
+  letter-spacing: -0.2px;
+}
+.profile__page .content .more .notif p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.3px;
+  text-align: center;
+}/*# sourceMappingURL=profile.css.map */
